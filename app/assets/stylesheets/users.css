@@ -68,6 +68,19 @@
   font-size: 30px;
 }
 
+.notice {
+  background-color: rgba(155, 155, 155, 0.4);
+  margin: 0;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.notice-text {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
 @media (max-width: 910px) {
   .pros {
     display: block;

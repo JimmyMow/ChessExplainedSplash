@@ -6,7 +6,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<% if notice %>
+  <div class="notice">
+    <i class="fa fa-bullhorn fa-2x horn"></i> <p class="notice-text"><%= notice %></p>
+  </div>
+<% end %>
 <%= yield %>
 
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>

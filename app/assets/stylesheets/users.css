@@ -1,0 +1,85 @@
+.form-container {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.submit-container, .email-text-field-container {
+  display: inline-block;
+}
+
+.email-text-field-container {
+  width: 75%;
+}
+
+.email-text-field {
+  width: 100%;
+  border: 2px #ccc solid;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.submit-button {
+  border-radius: 5px;
+  padding: 7px 20px;
+  border: none;
+  background-color: #2173a3;
+  color: white;
+}
+
+.twitter-link {
+  color: #2173a3;
+  text-decoration: underline;
+}
+
+.twitter-link:hover {
+  color: #144562;
+  text-decoration: underline;
+}
+
+.beta-line, .tester-line {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tester-line {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.beta-container {
+  margin-top: 40px;
+}
+
+.pros {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+.pro {
+  // list-style-type: none;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+@media (max-width: 910px) {
+  .pros {
+    display: block;
+    width: 100%;
+  }
+  .illustration {
+    height: 300px;
+    left: 50%;
+    top: 25%;
+  }
+
+  .line-drawing {
+    width: 100%;
+  }
+}

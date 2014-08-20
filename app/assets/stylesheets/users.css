@@ -95,6 +95,26 @@
   font-style: italic;
 }
 
+.links {
+  text-align: right;
+  padding: 0 20px;
+}
+
+.link {
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: bottom;
+  margin: 0 5px;
+}
+
+.link a {
+  font-size: 28px;
+}
+
+.link a:hover {
+  color: #2173a3;
+}
+
 @media (max-width: 910px) {
   .pros {
     display: block;

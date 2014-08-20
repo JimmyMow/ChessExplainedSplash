@@ -4,7 +4,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-        format.html { redirect_to root_url, notice: "Thanks for signing up to our mailing list! Can't wait to review some chess with you."}
+        format.html { redirect_to root_url, notice: "Thank you for joining our mailing list! Can't wait to review some chess with you."}
         format.json { render :show, status: :created, location: @user }
       else
         format.html { render :new }

@@ -62,7 +62,6 @@
 }
 
 .pro {
-  // list-style-type: none;
   padding: 10px;
   color: white;
   font-size: 30px;
@@ -71,14 +70,22 @@
 .notice {
   background-color: rgba(155, 155, 155, 0.4);
   margin: 0;
-  padding: 10px 20px;
+  padding: 5px 20px;
   text-align: center;
 }
 
 .notice-text {
   display: inline-block;
   margin-left: 20px;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.revolutionize {
+  display: inline-block;
+  font-size: 15px;
+  vertical-align: middle;
+  font-style: italic;
 }
 
 @media (max-width: 910px) {

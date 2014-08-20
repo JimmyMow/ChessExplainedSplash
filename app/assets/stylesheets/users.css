@@ -83,6 +83,7 @@
 
 .notice-text {
   display: inline-block;
+  vertical-align: baseline;
   margin-left: 20px;
   font-size: 18px;
   line-height: 1.5;
@@ -133,5 +134,29 @@
   .email-text-field-container {
     width: 100%;
     margin-bottom: 5px;
+  }
+
+  .pros {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .pro {
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+  }
+
+  .notice {
+    text-align: left;
+  }
+
+  .notice-welcome {
+    text-align: left;
+  }
+
+  .horn, .horn::before {
+    display: block !important;
+    text-align: center !important;
   }
 }
